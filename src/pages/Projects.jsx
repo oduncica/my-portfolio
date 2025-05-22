@@ -34,7 +34,7 @@ const academic = [
       "Application web de recommandation de livres avec interface de type swipe (Tinder-like), développée en React/Node. Stockage des données utilisateurs en base MongoDB, gestion des préférences via Express.",
 
     stack: ["React", "Node.js", "Express", "MongoDB"],
-    link: "https://github.com/oduncica/bookmate",
+    link: "https://bookmate-ddmf.onrender.com/",
   },
   {
     title: "Dashboard Netvibes-like",
@@ -44,9 +44,9 @@ const academic = [
   {
     title: "Documentaire interactif",
     description:
-      "Site web de type documentaire interactifsur la culture réglémentaire dans l'éducation coréenne.",
+      "Site web de type documentaire interactif sur la culture réglémentaire dans l'éducation coréenne.",
     stack: ["React", "Node.js", "Express", "MongoDB"],
-    link: "https://github.com/oduncica/documentaire-interactif",
+    link: "https://documentaire-interactif.onrender.com",
   },
   {
     title: "Ira Ifè",
