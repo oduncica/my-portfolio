@@ -1,15 +1,29 @@
 import React from "react";
+import {
+  FaReact,
+  FaNodeJs,
+  FaDatabase,
+  FaGitAlt,
+  FaJira,
+  FaFigma,
+  FaMicrosoft,
+} from "react-icons/fa";
 
 export default function Skills() {
   const tech = [
-    "Power Apps",
-    "Power BI",
-    "React",
-    "Node.js",
-    "SQL",
-    "Git",
-    "Jira",
-    "Figma",
+    { name: "Power Apps", icon: <FaMicrosoft className="text-[#742774]" /> },
+    { name: "Power BI", icon: <FaMicrosoft className="text-[#f2c811]" /> },
+    {
+      name: "Power Automate",
+      icon: <FaMicrosoft className="text-[#a259ff]" />,
+    },
+
+    { name: "React", icon: <FaReact className="text-[#61dafb]" /> },
+    { name: "Node.js", icon: <FaNodeJs className="text-[#3c873a]" /> },
+    { name: "SQL", icon: <FaDatabase className="text-[#f29111]" /> },
+    { name: "Git", icon: <FaGitAlt className="text-[#f34f29]" /> },
+    { name: "Jira", icon: <FaJira className="text-[#2684ff]" /> },
+    { name: "Figma", icon: <FaFigma className="text-[#a259ff]" /> },
   ];
   const pm = ["Scrum", "Kanban", "Rédaction de cahiers des charges", "CRM"];
 
@@ -24,9 +38,12 @@ export default function Skills() {
             <h3 className="text-xl font-semibold mb-4 text-[#4f46e5]">
               Techniques
             </h3>
-            <ul className="grid grid-cols-2 gap-y-3 text-gray-300 list-disc list-inside">
+            <ul className="grid grid-cols-2 gap-y-3 text-gray-300">
               {tech.map((s, i) => (
-                <li key={i}>{s}</li>
+                <li key={i} className="flex items-center gap-2">
+                  {s.icon}
+                  <span>{s.name}</span>
+                </li>
               ))}
             </ul>
           </div>

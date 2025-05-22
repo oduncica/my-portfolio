@@ -6,7 +6,7 @@ const professional = [
     title: "Portail régional de pilotage",
     description:
       "Conception et déploiement d’un portail de suivi projets avec Power Apps.",
-    stack: ["Power Apps", "Power Automate", "SharePoint"],
+    stack: ["Power Apps", "SharePoint"],
   },
   {
     title: "Dashboards budgétaires",
@@ -17,13 +17,12 @@ const professional = [
   {
     title: "Application Power Apps",
     description:
-      "Conception et déploiement d’un portail de suivi projets avec Power Apps.",
-    stack: ["Power Apps", "Power Automate", "SharePoint"],
+      "Refonte d'une application de gestion de documents de pilotage projets avec Power Apps.",
+    stack: ["Power Apps", "SharePoint"],
   },
   {
     title: "Automatisation de processus",
-    description:
-      "Création de tableaux de bord Power BI pour le suivi budgétaire.",
+    description: "Automatisation de processus RH internes avec Power Automate.",
     stack: ["Power Automate"],
   },
 ];
@@ -32,7 +31,8 @@ const academic = [
   {
     title: "Bookmate",
     description:
-      "Application de recommandation de livres, interface inspirée de Tinder.",
+      "Application web de recommandation de livres avec interface de type swipe (Tinder-like), développée en React/Node. Stockage des données utilisateurs en base MongoDB, gestion des préférences via Express.",
+
     stack: ["React", "Node.js", "Express", "MongoDB"],
     link: "https://github.com/oduncica/bookmate",
   },
@@ -40,20 +40,18 @@ const academic = [
     title: "Dashboard Netvibes-like",
     description: "Microservices et intégration de diverses API.",
     stack: ["React", "APIs REST"],
-    link: "https://github.com/oduncica/dashboard-app",
   },
   {
     title: "Documentaire interactif",
     description:
-      "Application de recommandation de livres, interface inspirée de Tinder.",
+      "Site web de type documentaire interactifsur la culture réglémentaire dans l'éducation coréenne.",
     stack: ["React", "Node.js", "Express", "MongoDB"],
-    link: "https://github.com/oduncica/bookmate",
+    link: "https://github.com/oduncica/documentaire-interactif",
   },
   {
     title: "Ira Ifè",
     description: "Microservices et intégration de diverses API.",
-    stack: ["React", "APIs REST"],
-    link: "https://github.com/oduncica/dashboard-app",
+    stack: ["React Native", "Express js", "Mongo db", "APIs REST"],
   },
 ];
 

@@ -25,7 +25,7 @@ export default function Navbar() {
               </li>
             )
           )}
-          <li>
+          {/* <li>
             <a
               href="/CV_Charlene_Odunlami.pdf"
               target="_blank"
@@ -34,7 +34,7 @@ export default function Navbar() {
             >
               Mon CV
             </a>
-          </li>
+          </li> */}
         </ul>
       </div>
     </nav>

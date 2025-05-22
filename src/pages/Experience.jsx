@@ -7,10 +7,10 @@ export default function Experience() {
       entreprise: "Inetum",
       periode: "09/2024 – 08/2025",
       missions: [
-        "Conception et déploiement d’un portail régional de pilotage de projets",
-        "Refonte d’application Power Apps",
-        "Automatisation via Power Automate",
-        "Tableaux de bord Power BI",
+        "Déploiement d’un portail régional de pilotage de projets",
+        "Refonte d’une application Power Apps pour la gestion documentaire",
+        "Automatisation des processus internes avec Power Automate",
+        "Création de tableaux de bord budgétaires avec Power BI",
       ],
     },
     {
@@ -18,8 +18,9 @@ export default function Experience() {
       entreprise: "Animafac",
       periode: "10/2023 – 08/2024",
       missions: [
+        "Recueil et analyse des besoins utilisateurs",
         "Gestion de projets CRM & Web",
-        "Support et rédaction de documentation",
+        "Support IT et rédaction de documentation",
       ],
     },
     {
@@ -27,8 +28,8 @@ export default function Experience() {
       entreprise: "KPS Consulting",
       periode: "06/2023 – 09/2023",
       missions: [
-        "Gestion de projets CRM & Web",
-        "Support et rédaction de documentation",
+        "Implémentation d'une solution de reporting via MS BI et Talend",
+        "Développement d'une solution de pilotage de la performance",
       ],
     },
     // ... autres expériences
