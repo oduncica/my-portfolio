@@ -9,10 +9,10 @@ const professional = [
     stack: ["Power Apps", "SharePoint"],
   },
   {
-    title: "Dashboards budgétaires",
+    title: "Tableaux de bord budgétaires Power BI",
     description:
-      "Création de tableaux de bord Power BI pour le suivi budgétaire.",
-    stack: ["Power BI", "DAX"],
+      "Conception et automatisation de tableaux de bord interactifs pour le pilotage budgétaire. Intégration de sources de données multiples et modélisation avec DAX pour fournir des indicateurs de performance clairs et actualisés en temps réel.",
+    stack: ["Power BI", "DAX", "Excel"],
   },
   {
     title: "Application Power Apps",
