@@ -7,6 +7,9 @@ import {
   FaJira,
   FaFigma,
   FaMicrosoft,
+  FaHtml5,
+  FaCss3Alt,
+  FaJsSquare,
 } from "react-icons/fa";
 
 export default function Skills() {
@@ -17,15 +20,29 @@ export default function Skills() {
       name: "Power Automate",
       icon: <FaMicrosoft className="text-[#a259ff]" />,
     },
-
     { name: "React", icon: <FaReact className="text-[#61dafb]" /> },
     { name: "Node.js", icon: <FaNodeJs className="text-[#3c873a]" /> },
     { name: "SQL", icon: <FaDatabase className="text-[#f29111]" /> },
     { name: "Git", icon: <FaGitAlt className="text-[#f34f29]" /> },
     { name: "Jira", icon: <FaJira className="text-[#2684ff]" /> },
     { name: "Figma", icon: <FaFigma className="text-[#a259ff]" /> },
+    { name: "HTML5", icon: <FaHtml5 className="text-[#e34c26]" /> },
+    { name: "CSS3", icon: <FaCss3Alt className="text-[#1572b6]" /> },
+    { name: "JavaScript", icon: <FaJsSquare className="text-[#f7df1e]" /> },
   ];
-  const pm = ["Scrum", "Kanban", "Rédaction de cahiers des charges", "CRM"];
+  const pm = [
+    "Scrum",
+    "Kanban",
+    "Rédaction de cahiers des charges",
+    "Gestion du changement",
+    "Conduite d’ateliers",
+    "Recette fonctionnelle",
+    "Analyse des besoins",
+    "Gestion de planning",
+    "Suivi budgétaire",
+    "CRM",
+    "Reporting",
+  ];
 
   return (
     <section id="skills" className="bg-[#121212] text-white py-20 px-4">
@@ -48,10 +65,10 @@ export default function Skills() {
             </ul>
           </div>
 
-          {/* Bloc Gestion de projet */}
+          {/* Bloc Fonctionnel */}
           <div>
             <h3 className="text-xl font-semibold mb-4 text-[#4f46e5]">
-              Gestion de projet
+              Fonctionnel
             </h3>
             <ul className="grid grid-cols-1 gap-y-3 text-gray-300 list-disc list-inside">
               {pm.map((s, i) => (
